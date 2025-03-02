@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define WINDOW_TITLE "01 Open Window"
+#define WINDOW_TITLE "02 Close Window"
 #define SCREEN_WIDTH 800
 #define SCREEN_HEIGHT 600
 
