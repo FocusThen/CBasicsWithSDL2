@@ -8,6 +8,8 @@
 	@gcc -lSDL2 -lSDL2_image 04-colors.c -o 04-colors && ./04-colors
 05:
 	@gcc -lSDL2 -lSDL2_image -lSDL2_ttf 05-create-text.c -o 05-create-text && ./05-create-text
+06:
+	@gcc -lSDL2 -lSDL2_image -lSDL2_ttf 06-moving-text.c -o 06-moving-text && ./06-moving-text
 
 clean:
 	@find . -type f -perm -a=x -maxdepth 1 -delete
