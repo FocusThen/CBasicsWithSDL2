@@ -12,6 +12,8 @@
 	@gcc -lSDL2 -lSDL2_image -lSDL2_ttf 06-moving-text.c -o 06-moving-text && ./06-moving-text
 07:
 	@gcc -lSDL2 -lSDL2_image -lSDL2_ttf 07-player-sprite.c -o 07-player-sprite && ./07-player-sprite
+08:
+	@gcc -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer 08-sound-effects.c -o 08-sound-effects && ./08-sound-effects
 
 clean:
 	@find . -type f -perm -a=x -maxdepth 1 -delete
